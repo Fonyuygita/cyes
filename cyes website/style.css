@@ -1,0 +1,149 @@
+.shift{
+    margin-left: 23px;
+}
+.navstyle{
+    background-image: url(img/p1\ \(1\).jpg);
+    background-color: brown;
+}
+
+body{
+    background-color: brown;
+}
+.cyesBanner{
+ 
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    line-height: 32px;
+    line-break: strict;
+    color: white;
+    font-size: 20px;
+}
+.cyesBanner{
+
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/p1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: slide;
+    animation-fill-mode:forwards;
+    animation-direction: alternate;
+    animation-duration: 20s;
+
+animation-delay: 10s;
+    animation-iteration-count: infinite;
+    
+    
+    
+   
+
+
+}
+@keyframes slide{
+    0%{
+background-image: url(img/p1\ \(1\).jpg);
+
+    }
+    25%{
+background-image: url(img/p1\ \(3\).jpg);
+    }
+    50%{
+
+background-image: url(img/p3.jpg);
+    }
+
+    75%{
+background-image: url(img/p2.jpg);
+    }
+    100%{
+        background-image: url(img/p1.jpg);
+    }
+}
+.head{
+    color: white;
+    font-weight: bolder;
+}
+.styleList li a{
+    margin-right: 32px;
+}
+
+.btns1{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: #fff 1px solid;
+    margin-top: 67px;
+    margin-left: 12px;
+    opacity: 1;
+    animation-name: btn;
+    animation-duration: .3s;
+    animation-delay: .3s;
+    animation-fill-mode: forward;
+    background-color: #5d88ca;
+
+
+}
+
+.btns2{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: #fff 1px solid;
+    margin-top: 67px;
+    margin-left: 12px;
+    opacity: 1;
+    animation-name: btn;
+    animation-duration: .3s;
+    animation-delay: .3s;
+    animation-fill-mode: forward;
+    background-color: white;
+
+
+}
+.btns:hover{
+    transform:rotateY(180deg);
+}
+@keyframes btn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;;
+}
+
+.countdown div{
+    color: white;
+    padding: 12px;
+    border: 2px solid white;
+    flex-basis: 2;
+    margin-left: 19px;
+    align-items: center;
+    font-size: 20px;
+    align-items: center;
+}
+.main{
+    font-size: 20px;
+}
+.organisers{
+    background-color: #5d88ca;
+}
+.textFixed{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 100px;
+
+}
