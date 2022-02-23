@@ -1,10 +1,10 @@
 // so let start by writing the function for our countdown clock
-alert("hello world")
+
 function countDown(){
 
 var now= new Date();
 
-var eventDate=new Date(2022,4,15);
+var eventDate=new Date(2022,3,15);
 
 // get the current time in milliseconds
 
@@ -44,8 +44,8 @@ var minutes=document.querySelector(".minutes");
 var seconds=document.querySelector(".seconds");
 
 days.innerHTML=`<center>${d}</center>` + " <h1 class='main'>Days</h1>";;
-days.innerHTML=`<center>${d}</center>` + " <h1 class='main'>Days</h1>";;
-hours.innerHTML=`<center>${h}</center>` + " <h1 class='main'>Hours</h1>";
+days.innerHTML=`<center>${d}</center>` + " <h1 class='main'>Days left</h1>";;
+hours.innerHTML=`<center>${h}</center>` + " <h1 class='main'>Hours Left</h1>";
 minutes.innerHTML=`<center>${m}</center>` + " <h1 class='main'>Minutes</h1>";;
 seconds.innerHTML=`<center>${s}</center>` + " <h1 class='main'>Seconds</h1>";;
 
@@ -57,23 +57,22 @@ countDown()
 
 // our slideshow
 
-var myImage=document.querySelector(".cyesBanner");
-var ImageArr=['p2.jpg','p3.jpg'];
+var myImage=document.querySelector(".img-changer");
+var ImageArr=['p1.jpg','laptop.png','p3.jpg','p3.jpg','1.jpg',"6.png"];
 
 var imageIndex=1;
 function changeImage(){
 
-   var imgu =myImage.style.backgroundImage='img/'+ ImageArr[imageIndex];
-console.log(imgu);
+   myImage.setAttribute("src", 'img/'+ ImageArr[imageIndex]);
+
     imageIndex++;
 
-    if(imageIndex>2){
+    if(imageIndex>6){
         imageIndex=0;
 
     }
-    setTimeout(changeImage, 3000)
+    setTimeout(changeImage, 6000);  
 }
-
 changeImage()
 
 

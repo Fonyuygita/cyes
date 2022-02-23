@@ -1,100 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .shift{
     margin-left: 23px;
 }
+
+
+
+
 .navstyle{
-    background-image: url(img/p1\ \(1\).jpg);
-    background-color: brown;
+    background-color: #0c4a50;
 }
 
-body{
-    background-color: brown;
-}
-.cyesBanner{
- 
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
-.heading{
-    line-height: 32px;
-    line-break: strict;
-    color: white;
-    font-size: 20px;
+
+   
+.head{
+    margin-top: 56px;
 }
 .cyesBanner{
 
     width: 100vw;
-    height: 100vh;
-    background-image: url(img/p1\ \(1\).jpg);
+    height: 1000px;
+    background-image: url(img/great.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     animation-name: slide;
-    animation-fill-mode:forwards;
-    animation-direction: alternate;
-    animation-duration: 20s;
-
-animation-delay: 10s;
+    animation-fill-mode: forwards;
+    animation-duration: 4s;
+    animation-delay: 3s;
     animation-iteration-count: infinite;
-    
-    
-    
    
-
-
-}
-@keyframes slide{
-    0%{
-background-image: url(img/p1\ \(1\).jpg);
-
-    }
-    25%{
-background-image: url(img/p1\ \(3\).jpg);
-    }
-    50%{
-
-background-image: url(img/p3.jpg);
     }
 
-    75%{
-background-image: url(img/p2.jpg);
-    }
-    100%{
-        background-image: url(img/p1.jpg);
-    }
-}
+    
+
 .head{
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .styleList li a{
     margin-right: 32px;
 }
 
+
 .btns1{
     display: inline-block;
-    color: white;
+    color: #0c4a50;
     text-decoration: none;
     padding: 1rem 3rem;
-    border: #fff 1px solid;
-    margin-top: 67px;
-    margin-left: 12px;
-    opacity: 1;
-    animation-name: btn;
-    animation-duration: .3s;
-    animation-delay: .3s;
-    animation-fill-mode: forward;
-    background-color: #5d88ca;
-
-
-}
-
-.btns2{
-    display: inline-block;
-    color: black;
-    text-decoration: none;
-    padding: 1rem 3rem;
-    border: #fff 1px solid;
+    border: #0c4a50 1px solid;
     margin-top: 67px;
     margin-left: 12px;
     opacity: 1;
@@ -103,6 +60,26 @@ background-image: url(img/p2.jpg);
     animation-delay: .3s;
     animation-fill-mode: forward;
     background-color: white;
+    border-radius:23px;
+
+
+}
+
+.btns2{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: #fff 1px solid;
+    margin-top: 67px;
+    margin-left: 12px;
+    opacity: 1;
+    animation-name: btn;
+    animation-duration: .3s;
+    animation-delay: .3s;
+    animation-fill-mode: forward;
+    background-color: #0c4a50;
+    border-radius: 23px;
 
 
 }
@@ -133,12 +110,17 @@ background-image: url(img/p2.jpg);
     align-items: center;
     font-size: 20px;
     align-items: center;
+    background-color: #0c4a50;
+    height: 100px;
+    width: 150px;
 }
 .main{
     font-size: 20px;
+    align-items: center;
+    text-align: center;
 }
 .organisers{
-    background-color: #5d88ca;
+    background-color: #0c4a50;
 }
 .textFixed{
     color: white;
@@ -146,4 +128,206 @@ background-image: url(img/p2.jpg);
     font-weight: bold;
     margin-top: 100px;
 
+}
+.card-pic{
+    background-image: url(img/p3.jpg);
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+ 
+    
+}
+.card-pic p{
+
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+
+}
+.news{
+    background-color: #fff;
+    color: #0c4a50;
+    font-weight: bold;
+
+    font-size: 20px;
+}
+.news .colas{
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.card-pic h1{
+
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bolder;
+
+
+}
+.img-container img{
+    width: 300px;
+    height: 300px;
+}
+.bak{
+    background-color: darkslategray;
+    
+
+    
+
+}
+
+.abouts{
+    box-shadow: 7px 7px 7px 7px #0c4a50;
+    opacity: .8;
+    margin-left: 23px;
+    color: #0c4a50;
+    
+    
+}
+
+   
+    .btnsx{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: #fff 1px solid;
+    margin-top: 37px;
+    margin-left: 12px;
+    opacity: 1;
+    animation-name: btn;
+    animation-duration: .3s;
+    animation-delay: .3s;
+    animation-fill-mode: forward;
+    background-color: #0c4a50;
+    ;
+
+
+} 
+
+.btnsx:hover{
+    display: inline-block;
+    color: #0c4a50;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    border: #0c4a50 1px solid;
+    margin-top: 37px;
+    margin-left: 12px;
+    opacity: 1;
+    transition-delay: 2s;
+    transition-duration: 2s;
+   
+    background-color: white;
+    ;
+
+
+} 
+.picture-container img{
+    width: 367px;
+    height: 200px;
+}
+.intro{
+    font-size: 23px;
+    color: #0c4a50;
+}
+
+.books{
+    
+   
+    background-size: cover;
+    background-repeat: no repeat;
+    opacity: 1;
+   
+   
+}
+
+.books .book{
+    
+    box-shadow: 12px 12px 12px #0c4a50;
+    margin-top: 64px;
+    height: 430px;
+    background-color: white;
+    opacity: 1;
+}
+
+#showcase{
+    height: 300px;
+}
+#showcase h1{
+    font-size: 32px;
+    line-height: 1.3;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes heading{
+    0%{
+        top: -50px;
+    }
+    100%{
+        top: 100px;
+    }
+}
+
+#showcase .heading{
+    height: 300px;
+    line-height: 1.2;
+}
+.container-box{
+  
+    color: #0c4a50;
+    
+}
+.btnsa{
+
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-top: 1px solid #0c4a50;
+    border-bottom: 1px solid #0c4a50;
+    margin-right: 21px;
+    margin-bottom: 12px;
+    opacity: 1;
+    animation-name: btn;
+    animation-duration: .3s;
+    animation-delay: .3s;
+    animation-fill-mode: forward;
+    background-color:white;
+    border-top: none;
+    border-right: 12px;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    padding: 23px;
+    margin-top: 23px;
+    ;
+}
+.contact{
+    color: white;
+    background-color: #0c4a50;
+    box-shadow: 5px 5px 5px white;
+}
+.texting{
+    font-size: 20px;
+}
+.real-footer{
+    background-color: #0c4a50;
+    color: white;
+}
+.social-media{
+    font-size: 40px;
+    
+}
+input{
+    border: 3px solid #0c4a50;
 }
